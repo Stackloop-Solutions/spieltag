@@ -3,7 +3,6 @@
 build/
 
 # Datenbankdateien der Anwendung (nie ins Repository)
-daten/
 *.mv.db
 *.trace.db
 
