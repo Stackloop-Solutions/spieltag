@@ -28,6 +28,8 @@ run {
 
 test {
     useJUnitPlatform()
+    // Gradle 9: Ohne Tests im Projekt scheitert der Build sonst mit "did not discover any tests".
+    failOnNoDiscoveredTests = false
     testLogging {
         events 'passed', 'failed', 'skipped'
         exceptionFormat 'full'
