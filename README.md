@@ -6,7 +6,7 @@ Projekt von Florian, Tim und Julian im Modul Fortgeschrittene Programmierung (HS
 
 ## Voraussetzungen
 
-- JDK 25
+- JDK 21
 - Git
 - Internetzugang beim ersten Start (Gradle lädt die Abhängigkeiten, darunter H2 und JUnit)
 
